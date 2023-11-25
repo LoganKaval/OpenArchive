@@ -1,9 +1,12 @@
 import platform
 import sys
+from datetime import date
+import random
 
 #Varibles
 a = 0
 b = 1
+random = random.randint
 
 print('Welcome')
 name = input('What is Your Name?')
@@ -24,6 +27,10 @@ data_lib = {
     'archive_purpose': 'To Help People Remember Stuff',
     'archive_hardware': cpuinfo,
     'archive_contributors': 'Logan Kaval,',
+    'archive_usr': name,
+    'pla_print_temp': '190C to 220C',
+    'tpu_print_temp': '210C to 230C',
+    'water_comp': '2 Hydrogen and 1 Oxygen',
     'help_syntax': ' '
 
 
