@@ -10,6 +10,6 @@ Also add your name to the spot that says "contributors" in the dictionary if you
 
 To operate the archive type the syntax.
 I do not have the "help_syntax" command/syntax working yet. 
-#You will have to read part of the code to find the syntaxes!
+You will have to read part of the code to find the syntaxes!
 
 Thank you, enjoy the Archive.
