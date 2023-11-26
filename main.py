@@ -9,7 +9,7 @@ import random
 a = 0
 b = 1
 random = random.randint
-ver = 'Version: v1.7.6 Flying Lion'
+ver = 'Version: v1.8.3.1 Walking PufferFish'
 
 print('Welcome')
 name = input('What is Your Name?')
@@ -34,7 +34,7 @@ data_lib = {
     'pla_print_temp': '190C to 220C',
     'tpu_print_temp': '210C to 230C',
     'water_comp': '2 Hydrogen and 1 Oxygen',
-    "archive_ver": 'Version: v1.8.2 Walking PufferFish',
+    "archive_ver": ver,
     'help_syntax': ' '
 
 
@@ -46,6 +46,9 @@ question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_s
 print(data_lib[question])
 
 while True:
+    question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')
+    print(data_lib[question])
+
     question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')
     print(data_lib[question])
 
