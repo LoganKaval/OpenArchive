@@ -1,54 +1,52 @@
-import platform
-import sys
-from datetime import date
-import random
-
-
-
-#Varibles
-a = 0
-b = 1
-random = random.randint
-ver = 'Version: v1.8.3.1 Walking PufferFish'
-
-print('Welcome')
-name = input('What is Your Name?')
-print('Hello, ' + name)
-print('I am OpenArchive, a Free and Opensource Archive')
-
-#DATA HERE
-
-def get_hardware_info():
-    system_info = platform.uname()
-
-cpuinfo = platform.uname()
-
-#All of the syntax for OpenArchive are right here!!!
-data_lib = {
-'archive_age': 'Older Than 1 Days Old',
-    'archive_creator': 'Logan Kaval',
-    'archive_purpose': 'To Help People Remember Stuff',
-    'archive_hardware': cpuinfo,
-    'archive_contributors': 'Logan Kaval,',
-    'archive_usr': name,
-    'pla_print_temp': '190C to 220C',
-    'tpu_print_temp': '210C to 230C',
-    'water_comp': '2 Hydrogen and 1 Oxygen',
-    "archive_ver": ver,
-    'help_syntax': ' '
-
-
-
-
-}
-
-question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')
-print(data_lib[question])
-
-while True:
-    question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')
-    print(data_lib[question])
-
-    question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')
-    print(data_lib[question])
-
+import platform                                                                                                                                                                                                                                                                                                                                       
+import sys                                                                                                                                                                                                                                                                                                                                            
+from datetime import date                                                                                                                                                                                                                                                                                                                             
+import random                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                      
+#Varibles                                                                                                                                                                                                                                                                                                                                             
+a = 0                                                                                                                                                                                                                                                                                                                                                 
+b = 1                                                                                                                                                                                                                                                                                                                                                 
+random = random.randint                                                                                                                                                                                                                                                                                                                               
+ver = 'Version: v1.8.4.1 Walking PufferFish'                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                      
+print('Welcome')                                                                                                                                                                                                                                                                                                                                      
+name = input('What is Your Name?')                                                                                                                                                                                                                                                                                                                    
+print('Hello, ' + name)                                                                                                                                                                                                                                                                                                                               
+print('I am OpenArchive, a Free and Opensource Archive')                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                      
+#DATA HERE                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                      
+def get_hardware_info():                                                                                                                                                                                                                                                                                                                              
+    system_info = platform.uname()                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                      
+cpuinfo = platform.uname()                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                      
+#All of the syntax for OpenArchive are right here!!!                                                                                                                                                                                                                                                                                                  
+data_lib = {                                                                                                                                                                                                                                                                                                                                          
+    'archive_age'         : 'Older Than 1 Days Old',                                                                                                                                                                                                                                                                                                  
+    'archive_creator'     : 'Logan Kaval',                                                                                                                                                                                                                                                                                                            
+    'archive_purpose'     : 'To Help People Remember Stuff',                                                                                                                                                                                                                                                                                          
+    'archive_hardware'    : cpuinfo,                                                                                                                                                                                                                                                                                                                  
+    'archive_contributors': 'Logan Kaval,',                                                                                                                                                                                                                                                                                                           
+    'archive_usr'         : name,                                                                                                                                                                                                                                                                                                                     
+    'pla_print_temp'      : '190C to 220C',                                                                                                                                                                                                                                                                                                           
+    'tpu_print_temp'      : '210C to 230C',                                                                                                                                                                                                                                                                                                           
+    'water_comp'          : '2 Hydrogen and 1 Oxygen',                                                                                                                                                                                                                                                                                                
+    "archive_ver"         : ver,                                                                                                                                                                                                                                                                                                                      
+    'help_syntax'         : ' ',                                                                                                                                                                                                                                                                                                                      
+    'what_nixos'          : 'NixOS is a Linux Operating System that is Normally Easy to Duplicate.',                                                                                                                                                                                                                                                  
+    'what_arch'           : 'Arch is a Linux Distro With its Own Package Manager Called Pacman',                                                                                                                                                                                                                                                      
+    'what_debain'         : 'Debain is a Very Stable Linux Distro That is Very Basic. Debain has its Own Package Manager Called Apt.',                                                                                                                                                                                                                
+    'what_gentoo'         : 'Gentoo is a Linux Distro That is Very Basic. Gentoo is made for Developers and Network Proffessionals. It has its Own Package Manager Called Portage.',                                                                                                                                                                  
+    'what_linux'          : 'Linux is a Operating System (OS) That Can Revive Old Computers, or Can Make YOur Computer Faster. It Can Also Make Your Computer More Stable. Linux Does Have its Downsides too. Linux is Very Different From Windows Because in Windows You Install Stuff With the Browser. Linux Installs Stuff With the Terminal.',   
+}                                                                                                                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                                                                                      
+question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')                                                                                                                                                                                                                                          
+print(data_lib[question])                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                      
+while True:                                                                                                                                                                                                                                                                                                                                           
+    question = input('What Do You Want To Know? Enter in the Syntax Here (Do "help_syntax" for the Syntax) -->')                                                                                                                                                                                                                                      
+    print(data_lib[question])                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                      
