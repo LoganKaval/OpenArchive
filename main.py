@@ -3,10 +3,13 @@ import sys
 from datetime import date
 import random
 
+
+
 #Varibles
 a = 0
 b = 1
 random = random.randint
+ver = 'Version: v1.7.6 Flying Lion'
 
 print('Welcome')
 name = input('What is Your Name?')
@@ -22,7 +25,7 @@ cpuinfo = platform.uname()
 
 #All of the syntax for OpenArchive are right here!!!
 data_lib = {
-    'archive_age': 'Older Than 1 Days Old',
+'archive_age': 'Older Than 1 Days Old',
     'archive_creator': 'Logan Kaval',
     'archive_purpose': 'To Help People Remember Stuff',
     'archive_hardware': cpuinfo,
@@ -31,8 +34,9 @@ data_lib = {
     'pla_print_temp': '190C to 220C',
     'tpu_print_temp': '210C to 230C',
     'water_comp': '2 Hydrogen and 1 Oxygen',
-    "archive_ver": 'Version: v1.7.6 Flying Lion',
+    "archive_ver": 'Version: v1.8.2 Walking PufferFish',
     'help_syntax': ' '
+
 
 
 
