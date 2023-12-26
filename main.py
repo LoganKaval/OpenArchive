@@ -15,7 +15,7 @@ print('Welcome')
 name = input('What is Your Name?')
 print('Hello, ' + name)
 print('I am OpenArchive, a Free and Opensource Archive')
-
+print('Please Add on to the Project on Github!')
 #DATA HERE
 
 def get_hardware_info():
